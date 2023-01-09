@@ -1,7 +1,64 @@
 
-h1{color: blue;}
-h2{color: brown;}
-h2{font-style: italic}
-h1{font-style: italic;}
+.heading1{color: blue;}
+
+
 .heading{color: red;}
 .child{text-align: center;}
+h1{text-align: center;}
+.id{text-align: center;}
+.css{text-align: center;
+}
+.child{
+    height: auto;
+    width: auto;
+display: block;
+margin: auto;}
+.id2{height: 50px;
+width: 300px;
+border-radius: 15px;
+padding-left: 10px;}
+.navbar{text-align: center;}
+.pakistan{text-align: center;
+background-color: thistle;}
+.border{height: 50px;
+width: 250px;
+border-radius: 20px;}
+.pakistan2{justify-content: left;
+text-align: left;}
+
+li:hover {
+    border-bottom-width: 3px;
+    border-bottom-color: red ;
+    border-bottom-style: solid;
+  
+  }
+  
+  i {
+    margin-right: 5px;
+    color: rgb(100, 8, 8);
+  }
+  
+  li > a {
+   
+    color: black;}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
