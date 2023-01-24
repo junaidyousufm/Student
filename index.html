@@ -6,149 +6,362 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<title>Umrah Package</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 <body>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-</body>
- <h1 class="heading1">Executive Umrah Package  </h1> 
-<link rel="stylesheet" href="index.css"/>
-<div class="chaild">
-<div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+               <img src="data:image/png;base64,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" alt="" height="100x px" width="100px">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://karachihaleem.pk/our-location">Our location</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://karachihaleem.pk/about-us"> About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://karachihaleem.pk/table-booking"> Reserve Table</a>
+                  </li>
+                 
+                    </a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://karachihaleem.pk/contact-us"> Contact us</a>
+                    </li>
+                    
+                    </nav>
+                    
+              </div>
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://admin.indolj.io/upload/1668368682-Facebook-cover-sep-RESIZED.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://admin.indolj.io/upload/1669901353-indoh-banner-(3).png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://admin.indolj.io/upload/1669901365-banner-for-Indolj.webp" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <br>
 
-</div class child>
-<img 
-height="300px"
-width="600px"
-src="https://www.rehmantravel.com/ckeditor_images/images/web%20banner.jpg" alt="">
-</div>
-
-</div>
-<div>
-    <br>
-<br>
-    
-<li><a href="Makkah.html">Makkah  </a> 
-
-<br>
-
-<li><a href="Madina.html">Madina </a>
-<br>
-<li><a href="Ziarat in Makkah.html">Ziarat in Makkah</a>
-    <li><a href="Ziarat in Madina.html">Ziarat in Madina</a>
-</html>
-<h2> Package 01 </h2>
-<br>
-
-<table cellpeding="3"  cellspecing="3" border= 1px /center>
-   
-    <thead>
-        <tr>
-         
-        <th> Duration </th>
-            <div>
-                
-            </div>
-           
-
-           <th>class="heading" Makkah </th>
-            <th>Madinah</th>
-            <th>Double</th>
-            <th>Triple</th>
-            <th>Quad</th>
-            </tr>
-
-            </thead>
-            <tbody>
-            <tr>
-            
-            <th >7</th>
-            <th >3</th>
-            <th>3</th>
-            <th>230000</th>
-            <th>190000</th>
-            <th>170000</th> 
-            <tr></tr>
-            <th>10</th>
-            <th>5</th>
-            <th>4</th>
-            <th>285000</th>
-            <th>235000</th>
-            <th>205000</th>
-            <tr></tr>
-            <th>15</th>
-            <th>7</th>
-            <th>7</th>
-            <th>385000</th>
-            <th>310000</th>
-            <th>275000</th>
-            </tr>
-        </tbody> 
-        </table>
-
-                
-            
-           <h3 class="heading"> Executive Umrah Package</h3>
-           <p><li>Executive Umrah Packages includes many luxury services for the customers
-           <li> Direct Flights by Saudi Airline, Air Blue, PIA, and Saudi Gulf Airline
-            <li>Stay in four and five star hotels in Makkah and Madina
-            <li>Meet and assist at Jeddah Airport and Madina airport
-            <li>Provide luxury transport for travel in Makkah and Madina with Urdu and English speaking driver
-                <br>
-                <br>
-            <h3>Umrah Visa  </h3> 
-           <p> We deal with two types of Umrah Visa.</p>
-            <li>Umrah E visa for Pakistani passport holders
-            <li>Umrah Sticker Visa and Visit Visa for foreign passport holders
-                
-                <h3>5 Star Umrah Packages </h3>
-                <div>
-               
-                
-                <p>5 Star Umrah package provides accommodation in 4 star and 5 star hotels of Makkah and Madina. Breakfast, room service, WI-FI, and air-conditioned rooms are provided to the pilgrims. Hotels in Makkah and Madina are very close to Harmain Shareefain in 5 star Umrah Package. Our panel hotels in Makkah and Madina are nearest to Masjid Al-Haram and Masjid Nabawi.</p>
-                <a href="Book Your Package.html">
-                    <button>Book Your Package</button> </a>
-                   
-             <div class="css">
-                <h1>Tours for Everywhere. Find Now!</h1>
-                <p class="id">Explore from 901 tour packages in Paksitan and abroad.</p>
-                <input class="id2" placeholder="Search" type="Search">
-             </div>
-              
-               
         
-                <a  href="tour.html"><button>See flex botton</button></a> 
-                
-             
-              
 
-                
 
+        <input type="radio" class="btn-check" name="options" id="option1">
+        <label class="btn btn-secondary" for="option1">TOP SELLER</label>
+        
+        <input type="radio" class="btn-check" name="options" id="option2"> 
+        <label class="btn btn-secondary" for="option2">WINTER DEALS</label>
+        
+        <input type="radio" class="btn-check" name="options" id="option3"> 
+        <label class="btn btn-secondary" for="option3">STARTERS</label>
+        
+        <input type="radio" class="btn-check" name="options" id="option4" >
+        <label class="btn btn-secondary" for="option4">SOUPS</label>
+        
+        <input type="radio" class="btn-check" name="options" id="option4" >
+        <label class="btn btn-secondary" for="option4">CHINESE</label>
+
+        <input type="radio" class="btn-check" name="options" id="option4" >
+        <label class="btn btn-secondary" for="option4">FAST FOOD</label>
+
+        <input type="radio" class="btn-check" name="options" id="option4" >
+        <label class="btn btn-secondary" for="option4">B.B.Q</label>
+        
+        <input type="radio" class="btn-check" name="options" id="option4" >
+        <label class="btn btn-secondary" for="option4">LIVE KARAHI</label>
+
+        <input type="radio" class="btn-check" name="options" id="option4" >
+        <label class="btn btn-secondary" for="option4">SEA FOOD</label>
+
+        <input type="radio" class="btn-check" name="options" id="option4" >
+        <label class="btn btn-secondary" for="option4">BIRYANI</label>
+
+        <input type="radio" class="btn-check" name="options" id="option4" >
+        <label class="btn btn-secondary" for="option4">PULAO</label>
+
+        <input type="radio" class="btn-check" name="options" id="option4" >
+        <label class="btn btn-secondary" for="option4">RICE ITEM</label>
+
+        <input type="radio" class="btn-check" name="options" id="option4" >
+        <label class="btn btn-secondary" for="option4">LIVE KARAHI</label>
+
+        <input type="radio" class="btn-check" name="options" id="option4" >
+        <label class="btn btn-secondary" for="option4">MAKHNI HANDI</label>
+
+        <input type="radio" class="btn-check" name="options" id="option4" >
+        <label class="btn btn-secondary" for="option4">GRILLED CHARGHA</label>
+
+
+
+
+
+        </div>
+       
+        <br>
+
+        <div  class="winter_deals" >
           
-                
-</div>
-                
-                
-                   
 
-            
-                    
+           <h1>Winter DEALS</h1 >  
+       
+       
 
-                    
-                
-
-            
-
-
-            
+        <div class="row row-cols-1 row-cols-md-2 g-4" >
+          <div class="col">
+            <div class="card">
+              <img src="https://admin.indolj.io/upload/1673001490-IMG-20230106-WA0065.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Winter Deal 1</h5>
+                <p class="card-text">2 chicken biryani single 2 checkin beef haleem 1 zarda special 1.5 litre drink</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://admin.indolj.io/upload/1673001490-IMG-20230106-WA0065.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Winter Deal 2</h5>
+                <p class="card-text">1 kg haleem  4 Naan 2 kheer 1.5 liter drink  </p>
+              </div>
+            </div>
+          </div>
         
-           
+        </div> 
+      </div>
+<br>
+<br>
+       
+            <div>
+            <h1 class="deal">DEALS</h1>
+          </div>
+
+          <div class="card-group">
+          <div class="card" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+            <img src="https://admin.indolj.io/upload/1666423633-deal%201.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DEAL 1</h5>
+              <p class="card-text">2  Single Haleem (Chicken or Beef) , 
+                2  Naan ,
+                1	kheer ,
+                2	Can.</p>
+              
+            </div>
+          </div>
+          <div class="card"class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+            <img src="https://admin.indolj.io/upload/1666423633-deal%201.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DEAL 2</h5>
+              <p class="card-text">1	Double Chicken Biryani ,
+                1	Double Beef Biryani , 
+                1	Half Kg Haleem (Chicken or Beef) ,
+                3	Kheer ,
+                2	Raita OR Salad ,
+                2	Naan ,
+                  1.5 Liter Soft Drink.</p>
+             
+            </div>
+          </div>
+          <div class="card"class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+            <img src="https://admin.indolj.io/upload/1666423633-deal%201.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DEAL 3</h5>
+              <p class="card-text">1	Double Chicken Biryani ,
+                1	Double Beef Biryani , 
+                1	Half Kg Haleem (Chicken or Beef) ,
+                3	Kheer ,
+                2	Raita OR Salad ,
+                2	Naan ,
+                  1.5 Liter Soft Drink.</p>
             
-            
-            
-            
+            </div>
+          </div>
+        </div>
+
+       
+
+        
+        </div>
+        <div class="haleem">
+        <img src="https://admin.indolj.io/upload/1662639956-haleem.jpg" class="img-fluid" alt="..." width="100%">
+      </div>
+     <br>
+     <br>
+
+     <div class="card-group">
+      <div class="card">
+        <img src="https://admin.indolj.io/upload/1667735160-Untitled-1.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">chicken haleem</h5>
+          <p class="card-text">from Rs 170</p>
+          
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://admin.indolj.io/upload/1667735140-beef%20haleem.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Beef Haleem</h5>
+          <p class="card-text">from Rs 170</p>
+         
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://admin.indolj.io/upload/1624714464-DSC_0075-removebg-preview.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Extra Masala</h5>
+          <p class="card-text">from Rs 30</p>
+         
+        </div>
+      </div>
+    </div>
+
+
+    <div class="haleem">
+      <img src="https://admin.indolj.io/upload/1662639930-biryani.jpg" class="img-fluid" alt="..." width="100%">
+    </div>
+   <br>
+   <br>
+
+   <div class="card-group">
+    <div class="card">
+      <img src="https://admin.indolj.io/upload/1667735160-Untitled-1.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">chicken biryani</h5>
+        <p class="card-text">from Rs 260</p>
+        
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://admin.indolj.io/upload/1667735205-beef%20biryani.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Beef biryani</h5>
+        <p class="card-text">from Rs 350</p>
+       
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://admin.indolj.io/upload/1646307187-kuska-rice-plain-biryani-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Saadi biryani</h5>
+        <p class="card-text">from Rs 200</p>
+       
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div class="Makhni_handi">
+    <img src="https://admin.indolj.io/upload/1662989750-Handi%20(1).jpg" class="img-fluid" alt="..." width="100%">
+  </div>
+ <br>
+ <br>
+
+ <div class="card-group">
+  <div class="card">
+    <img src="https://admin.indolj.io/upload/1667759922-RED%20CHICKEN%20MAKHNI%20HANDI.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Red chicken makhni handi</h5>
+      <p class="card-text">from Rs 1100</p>
+      
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://admin.indolj.io/upload/1667759895-WHITE%20CHICKEN%20MAKHNI%20HANDI.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">White chicken makhni handi</h5>
+      <p class="card-text">from Rs 1100</p>
+     
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://admin.indolj.io/upload/1667759872-RED%20MUTTON%20MAKHNI%20HANDI.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Red mutton makhni handi</h5>
+      <p class="card-text">from Rs 1800</p>
+     
+    </div>
+  </div>
+</div>
+
+<div class="app-available-icon">
+
+
+<img src="https://admin.indolj.io//assets/images/google-play.png">
+</a>
+
+  
+<img src="https://admin.indolj.io//assets/images/app-store.png">
+</a>
+</div>
+<div class="display">
+  <p>
+Powerd by junaid Empowering eCommerce Privacy Policy
+  </p>
+</div>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     
 
 
+
+        
+        
+       
+      
+    
+        
+         
+         
+        
+        
+          
+         
+
+
+        
+</body>
+</html>
