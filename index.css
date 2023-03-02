@@ -1,64 +1,42 @@
+.maindiv{display: flex;}
 
-.heading1{color: blue;}
-
-
-.heading{color: red;}
-.child{text-align: center;}
-h1{text-align: center;}
-.id{text-align: center;}
-.css{text-align: center;
+.heading{padding: 100px;
 }
-.child{
-    height: auto;
-    width: auto;
-display: block;
-margin: auto;}
-.id2{height: 50px;
-width: 300px;
-border-radius: 15px;
-padding-left: 10px;}
-.navbar{text-align: center;}
-.pakistan{text-align: center;
-background-color: thistle;}
-.border{height: 50px;
-width: 250px;
+ .botton{display: flex;
+justify-content: space-around;
+background-color: gray;
+height: 80px;
+padding: 10px;
+margin-left: 130px;
+margin-right: 130px;
 border-radius: 20px;}
-.pakistan2{justify-content: left;
-text-align: left;}
+.Earth{
 
-li:hover {
-    border-bottom-width: 3px;
-    border-bottom-color: red ;
-    border-bottom-style: solid;
-  
-  }
-  
-  i {
-    margin-right: 5px;
-    color: rgb(100, 8, 8);
-  }
-  
-  li > a {
-   
-    color: black;}
-  
+justify-content: center;
+display: flex;
+}
+.heading2{display: flex;
+justify-content: center;}
+.btn{display: flex;
 
+margin-left: 60px;
+}
+.radius{
+display: flex;}
 
+.box{
+    
+    background-color: beige;
+    padding: 60px;
+    margin: 20px;
+    border-radius: 20px;
+ 
+    height: 250px;
+    cursor: pointer;
+    
+    
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    
+ }
